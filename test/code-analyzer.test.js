@@ -1,7 +1,7 @@
 import assert from 'assert';
 import {parseCode} from '../src/js/code-analyzer';
 import {parserNewJson} from '../src/js/Parser';
-describe('The javascript parser',() => {
+describe('The javascript parser', () => {
     it('is parsing an empty function correctly', () => {
         assert.equal(
             JSON.stringify(parseCode('')),
